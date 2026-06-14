@@ -21,7 +21,7 @@ public class PlayerShip : GameObject
     }
 
     public override void Update(double deltaTime){}
-
+    // AI-generated
     public override unsafe void Render(Sdl sdl, Renderer* renderer)
     {
         // Matrice 15x15 pentru o navă spațială detaliată
@@ -75,4 +75,5 @@ public class PlayerShip : GameObject
             }
         }
     }
+    // end AI-generated
 }

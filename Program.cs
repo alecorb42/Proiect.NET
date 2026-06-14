@@ -69,7 +69,8 @@ public static class Program
 
         int highScore = 0;
         string highScoreFilePath = "highscore.txt";
-        
+
+        // AI-generated 
         try
         {
             if (File.Exists(highScoreFilePath))
@@ -83,7 +84,7 @@ public static class Program
         {
             throw new HighScoreStorageException("Failed to read high score file from disk.", ex);
         }
-
+        // end AI-generated
         timer.Start();
 
         while (!quit)
@@ -125,7 +126,7 @@ public static class Program
             {
                 player.MoveRight(deltaTime, 800);
             }
-
+   
             asteroidSpawnTimer += deltaTime;
             if (asteroidSpawnTimer >= spawnInterval)
             {

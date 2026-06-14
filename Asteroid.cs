@@ -19,7 +19,7 @@ public class Asteroid : GameObject
             IsActive = false;
         }
     }
-
+    // AI-generated
     public override unsafe void Render(Sdl sdl, Renderer* renderer)
     {
         // Matrice 10x10 pentru un asteroid circular/pietros retro (inspirat din imagini)
@@ -63,4 +63,5 @@ public class Asteroid : GameObject
             }
         }
     }
+    // end AI-generated
 }
